@@ -33,4 +33,5 @@ git branch (to check branch)
 git branch -M main (to rename branch)
 
 git push origin main
+you can add (git push -u origin main) if you don't want to write origin main again and again 
 */
