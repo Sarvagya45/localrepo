@@ -4,7 +4,7 @@ int main(){
     return 0;
 }
 
-//command to access folder /make new repo from visualstudio only
+//command to access directory
 /*
 
 cd 'folder ka name'
@@ -18,3 +18,19 @@ mkdir 'folder/repo name'
 */
 
 
+//commands to make a new repo
+/*
+git init -used to create a new git repo from a directory 
+
+
+git remote add orgin 'link of a repo'
+it is used to add origin to new repo 
+
+git remote -v (to verify remote )
+
+git branch (to check branch)
+
+git branch -M main (to rename branch)
+
+git push origin main
+*/
