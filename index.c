@@ -63,6 +63,7 @@ used to fetch and download contents from remote repo and update the local repo t
 //Undoing Changes
 
 /*
+git log (it is used to see commits that have been made before push)
 Case 1: staged changes
 git reset <- file name ->
 git reset
