@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     printf("this is a new repo");
+    printf("made a new branch");
     return 0;
 }
 
@@ -20,8 +21,7 @@ mkdir 'folder/repo name'
 
 //commands to make a new repo
 /*
-git init -used to create a new git repo from a directory 
-
+git init (used to create a new git repo from a directory)
 
 git remote add orgin 'link of a repo'
 it is used to add origin to new repo 
@@ -33,5 +33,14 @@ git branch (to check branch)
 git branch -M 'anyname' (to rename branch)
 
 git push origin main
-you can add (git push -u origin main) if you don't want to write origin main again and again 
+you can also write (git push -u origin main) if you don't want to write origin main again and again 
+*/
+
+//branch commands
+/*
+git branch (to check branch)
+git branch -M 'name' (to change name of branch)
+git checkout 'branch name' (to navigate to any other branch)
+git checkout -b 'new branch name' (to create new branch)
+git branch -d 'branch name' (to delete branch)
 */
