@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     printf("this is a new repo");
+    printf("my name is sarvagya gupta");
     return 0;
 }
 
@@ -33,5 +34,16 @@ git branch (to check branch)
 git branch -M 'anyname' (to rename branch)
 
 git push origin main
-you can add (git push -u origin main) if you don't want to write origin main again and again 
+you can also write (git push -u origin main) if you don't want to write origin main again and again 
+*/
+
+
+//branch commands
+/*
+
+git branch (to check branch)
+git branch -M 'name' (to change name of branch)
+git checkout 'branch name' (to navigate to any other branch)
+git checkout -b 'new branch name' (to create new branch)
+git branch -d 'branch name' (to delete branch)
 */
