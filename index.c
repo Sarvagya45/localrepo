@@ -3,6 +3,7 @@ int main(){
     printf("this is a new repo");
     printf("made a new branch");
     printf("feture wala change");
+    printf("main wala change");
     return 0;
 }
 
