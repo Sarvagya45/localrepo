@@ -44,3 +44,15 @@ git checkout 'branch name' (to navigate to any other branch)
 git checkout -b 'new branch name' (to create new branch)
 git branch -d 'branch name' (to delete branch)
 */
+
+//merging commands
+/*
+git diff 'branch name' (to compare commit,branches,file)
+git merge 'branch name' (to merge two branches)
+*/
+
+//pull command
+/*
+git pull origin main
+used to fetch and download contents from remote repo and update the local repo to match that content
+*/
