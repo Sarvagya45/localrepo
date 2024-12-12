@@ -58,3 +58,20 @@ git merge 'branch name' (to merge two branches)
 git pull origin main
 used to fetch and download contents from remote repo and update the local repo to match that content
 */
+
+
+//Undoing Changes
+
+/*
+Case 1: staged changes
+git reset <- file name ->
+git reset
+
+Case 2: commited changes (for one commit)
+git reset HEAD~1
+
+Case 3: commited changes (for many commits)
+git reset <- commit hash ->
+
+git reset --hard <- commit hash ->(this one is used to reset code in vstudio)
+*/
