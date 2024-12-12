@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     printf("this is a new repo");
-    printf("my name is sarvagya gupta");
+    printf("made a new branch");
     return 0;
 }
 
